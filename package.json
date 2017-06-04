@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./src/test/*.spec.js"
+    "test": "mocha ./src/test/*.spec.js -w",
+    "coverage" : "istanbul cover -x *.spec.js ./node_modules/mocha/bin/_mocha -- -R spec ./src/test/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/innoist/IstanbulTestCoverage#readme",
   "dependencies": {
     "chai": "^4.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.4.2"
   }
 }
