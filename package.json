@@ -1,0 +1,23 @@
+{
+  "name": "testsetup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innoist/IstanbulTestCoverage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/innoist/IstanbulTestCoverage/issues"
+  },
+  "homepage": "https://github.com/innoist/IstanbulTestCoverage#readme",
+  "dependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
